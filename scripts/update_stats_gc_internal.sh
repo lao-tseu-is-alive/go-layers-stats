@@ -24,5 +24,7 @@ else
   echo "COPY layer_access_gc_internal(layer,year,month,day,hour_min,ip_address,referer,user_agent) FROM '/tmp/gc_internal_layers_yesterday_sorted.log' DELIMITER E'\t';" >/tmp/insert_yesterday_gc_internal.sql
   echo "## Cool 🚀✓🚀 will try inserting yesterday log entries in database..."
   su -c "psql -f /tmp/insert_yesterday_gc_internal.sql  go_layers_stats" postgres
+  YESTERDAY_NUM_ROWS=$(su -c "psql -qt -f /tmp/num_records_for_yesterday.sql go_layers_stats" postgres)
+  echo "## Cool 🚀✓🚀 finished inserting ${YESTERDAY_NUM_ROWS} yesterday log entries in database..."
 fi
 
