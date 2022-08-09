@@ -18,7 +18,7 @@ if (( "$YESTERDAY_NUM_ROWS" > 0 )); then
   exit 2
 else
   echo "## Cool 🚀✓🚀 the database does not contain yesterday entries of logs (${YESTERDAY_NUM_ROWS}), will try to parse them "
-  goParseLog /tmp/access_carto_public_lausanne_ssl_yesterday.log > /tmp/gc_public_layers_yesterday.log
+  /root/bin/goParseLog /tmp/access_carto_public_lausanne_ssl_yesterday.log > /tmp/gc_public_layers_yesterday.log
   sort /tmp/gc_public_layers_yesterday.log > /tmp/gc_public_layers_yesterday_sorted.log
   # shellcheck disable=SC2028
   echo "COPY layer_access_gc_public(layer,year,month,day,hour_min,ip_address,referer,user_agent) FROM '/tmp/gc_public_layers_yesterday_sorted.log' DELIMITER E'\t';" >/tmp/insert_yesterday_gc_public.sql
@@ -27,20 +27,4 @@ else
   YESTERDAY_NUM_ROWS=$(su -c "psql -qt -f /tmp/num_records_for_yesterday.sql go_layers_stats" postgres)
   echo "## Cool 🚀✓🚀 finished inserting ${YESTERDAY_NUM_ROWS} yesterday log entries in database..."
 fi
-
-
-
-
-
-
-./goParseLog /tmp/carto-public-2021_lausanne_ch_ssl_access.log.1 > /tmp/gc_public_layers_yesterday.log
-sort /tmp/gc_public_layers_yesterday.log > /tmp/gc_public_layers_yesterday_sorted.log
-echo "inserting new log entries in database "
-psql -c "COPY layer_access_gc_public(layer,year,month,day,hour_min,ip_address,referer,user_agent) FROM '/tmp/gc_public_layers_yesterday_sorted.log' DELIMITER E'\t';" go_layers_stats
-
-
-
-echo "## checking first and last line of full log :"
-head -n 1 /tmp/access_carto_lausanne_ssl.log |gawk '{print $4}'
-tail -n 1 /tmp/access_carto_lausanne_ssl.log |gawk '{print $4}'
 

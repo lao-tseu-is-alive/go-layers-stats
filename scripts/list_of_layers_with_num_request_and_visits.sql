@@ -14,7 +14,7 @@ SELECT layer,
        COUNT(distinct ip_address) as visits_gc_internal
 FROM layer_access_gc_internal
 GROUP BY year, month, day, layer --, date_part('hour', hour_min)
-ORDER BY layer, year, month, day
+ORDER BY layer, year, month, day;
 --,hour;
 --SELECT DISTINCT layer FROM layer_access_gc_internal WHERE month=7 AND day=16 ORDER BY ip_address;
 --UNION ALL
@@ -28,7 +28,7 @@ SELECT year,
        COUNT(distinct ip_address) as visits_gc_public
 FROM layer_access_gc_public
 GROUP BY year, month, day--, layer -- date_part('hour', hour_min)
-ORDER BY year, month, day
+ORDER BY year, month, day;
 --,layer;
 -- global query to present list of layers with numbers from gc_internal and gc_public
 WITH cte_internal as (SELECT layer,
@@ -50,4 +50,4 @@ SELECT coalesce(cte_internal.layer, cte_public.layer) as layer,
        cte_public.visits_gc_public
 FROM cte_internal
          FULL JOIN cte_public ON cte_public.layer = cte_internal.layer
-ORDER BY cte_internal.layer
+ORDER BY cte_internal.layer;

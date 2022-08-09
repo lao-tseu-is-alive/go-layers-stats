@@ -1,16 +1,12 @@
 <script setup>
-import ListLayers from './components/ListLayers.vue'
-</script>
+import ListLayers from './components/ListLayers.vue'</script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <ListLayers msg="Statistiques Couches GC" />
+  <div class="grid">
+    <div class="col">
+      <ListLayers msg="Statistiques des couches du GC"/>
     </div>
-  </header>
-
-  <main>
-  </main>
+  </div>
 </template>
 
 <style scoped>

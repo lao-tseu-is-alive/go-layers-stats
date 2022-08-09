@@ -1,1463 +1,1484 @@
 [
   {
     "layer": "altimetrie_courbes_niveau_msgroup",
-    "requests_gc_internal": 17,
-    "visits_gc_internal": 5,
-    "requests_gc_public": 71,
-    "visits_gc_public": 14
+    "requests_gc_internal": 28,
+    "visits_gc_internal": 6,
+    "requests_gc_public": 87,
+    "visits_gc_public": 17
   },
   {
     "layer": "altimetrie_hauteur_vegetation_mnc",
-    "requests_gc_internal": 13,
-    "visits_gc_internal": 4,
-    "requests_gc_public": 68,
-    "visits_gc_public": 15
+    "requests_gc_internal": 14,
+    "visits_gc_internal": 5,
+    "requests_gc_public": 87,
+    "visits_gc_public": 20
   },
   {
     "layer": "altimetrie_hauteur_vegetation_mnc_class",
-    "requests_gc_internal": 22,
-    "visits_gc_internal": 4,
-    "requests_gc_public": 50,
-    "visits_gc_public": 13
+    "requests_gc_internal": 23,
+    "visits_gc_internal": 5,
+    "requests_gc_public": 65,
+    "visits_gc_public": 18
   },
   {
     "layer": "altimetrie_isobathe_leman_msgroup",
     "requests_gc_internal": 4,
     "visits_gc_internal": 4,
-    "requests_gc_public": 54,
-    "visits_gc_public": 11
+    "requests_gc_public": 57,
+    "visits_gc_public": 12
   },
   {
     "layer": "altimetrie_ombrage_mns",
-    "requests_gc_internal": 4,
-    "visits_gc_internal": 4,
-    "requests_gc_public": 23,
-    "visits_gc_public": 10
+    "requests_gc_internal": 11,
+    "visits_gc_internal": 5,
+    "requests_gc_public": 33,
+    "visits_gc_public": 12
   },
   {
     "layer": "altimetrie_ombrage_mns_rayonnement",
     "requests_gc_internal": 6,
     "visits_gc_internal": 4,
-    "requests_gc_public": 17,
-    "visits_gc_public": 11
+    "requests_gc_public": 24,
+    "visits_gc_public": 13
   },
   {
     "layer": "altimetrie_ombrage_mnt",
-    "requests_gc_internal": 7,
-    "visits_gc_internal": 5,
-    "requests_gc_public": 29,
-    "visits_gc_public": 11
+    "requests_gc_internal": 17,
+    "visits_gc_internal": 6,
+    "requests_gc_public": 40,
+    "visits_gc_public": 14
   },
   {
     "layer": "altimetrie_orientation_terrain_class",
     "requests_gc_internal": 3,
     "visits_gc_internal": 3,
-    "requests_gc_public": 18,
-    "visits_gc_public": 12
+    "requests_gc_public": 19,
+    "visits_gc_public": 13
   },
   {
     "layer": "altimetrie_pente_terrain",
     "requests_gc_internal": 3,
     "visits_gc_internal": 3,
-    "requests_gc_public": 16,
-    "visits_gc_public": 11
+    "requests_gc_public": 22,
+    "visits_gc_public": 13
   },
   {
     "layer": "altimetrie_pente_terrain_class",
     "requests_gc_internal": 3,
     "visits_gc_internal": 3,
-    "requests_gc_public": 21,
-    "visits_gc_public": 12
+    "requests_gc_public": 25,
+    "visits_gc_public": 13
   },
   {
     "layer": "amenagement_ens_batis",
-    "requests_gc_internal": 332,
-    "visits_gc_internal": 31,
-    "requests_gc_public": 692,
-    "visits_gc_public": 71
+    "requests_gc_internal": 550,
+    "visits_gc_internal": 42,
+    "requests_gc_public": 877,
+    "visits_gc_public": 96
   },
   {
     "layer": "amenagement_isos_msgroup",
-    "requests_gc_internal": 643,
-    "visits_gc_internal": 48,
+    "requests_gc_internal": 876,
+    "visits_gc_internal": 61,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "amenagement_jardins_histo",
-    "requests_gc_internal": 431,
-    "visits_gc_internal": 38,
-    "requests_gc_public": 737,
-    "visits_gc_public": 75
+    "requests_gc_internal": 596,
+    "visits_gc_internal": 47,
+    "requests_gc_public": 899,
+    "visits_gc_public": 98
   },
   {
     "layer": "amenagement_jorat_parc_naturel",
-    "requests_gc_internal": 163,
-    "visits_gc_internal": 21,
-    "requests_gc_public": 378,
-    "visits_gc_public": 54
+    "requests_gc_internal": 253,
+    "visits_gc_internal": 27,
+    "requests_gc_public": 466,
+    "visits_gc_public": 69
   },
   {
     "layer": "amenagement_monuments_sites",
-    "requests_gc_internal": 352,
-    "visits_gc_internal": 35,
+    "requests_gc_internal": 474,
+    "visits_gc_internal": 43,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "amenagement_pga_centre_histo_msgroup",
-    "requests_gc_internal": 151,
-    "visits_gc_internal": 26,
-    "requests_gc_public": 561,
-    "visits_gc_public": 67
+    "requests_gc_internal": 255,
+    "visits_gc_internal": 34,
+    "requests_gc_public": 689,
+    "visits_gc_public": 89
   },
   {
     "layer": "amenagement_pga_degres_sensibilite",
-    "requests_gc_internal": 201,
-    "visits_gc_internal": 30,
-    "requests_gc_public": 407,
-    "visits_gc_public": 69
+    "requests_gc_internal": 343,
+    "visits_gc_internal": 37,
+    "requests_gc_public": 545,
+    "visits_gc_public": 89
   },
   {
     "layer": "amenagement_pga_foret_msgroup",
-    "requests_gc_internal": 1890,
-    "visits_gc_internal": 84,
-    "requests_gc_public": 1785,
-    "visits_gc_public": 124
+    "requests_gc_internal": 2657,
+    "visits_gc_internal": 102,
+    "requests_gc_public": 2332,
+    "visits_gc_public": 157
   },
   {
     "layer": "amenagement_pga_limc",
-    "requests_gc_internal": 2499,
-    "visits_gc_internal": 49,
-    "requests_gc_public": 1185,
-    "visits_gc_public": 85
+    "requests_gc_internal": 3223,
+    "visits_gc_internal": 66,
+    "requests_gc_public": 1472,
+    "visits_gc_public": 112
   },
   {
     "layer": "amenagement_pga_ppa_etude",
-    "requests_gc_internal": 1777,
-    "visits_gc_internal": 84,
+    "requests_gc_internal": 2495,
+    "visits_gc_internal": 103,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "amenagement_pga_ppa_msgroup",
-    "requests_gc_internal": 3215,
-    "visits_gc_internal": 95,
-    "requests_gc_public": 1955,
-    "visits_gc_public": 145
+    "requests_gc_internal": 4438,
+    "visits_gc_internal": 116,
+    "requests_gc_public": 2513,
+    "visits_gc_public": 182
   },
   {
     "layer": "amenagement_pga_sect_stationnement",
-    "requests_gc_internal": 144,
-    "visits_gc_internal": 22,
-    "requests_gc_public": 339,
-    "visits_gc_public": 48
+    "requests_gc_internal": 270,
+    "visits_gc_internal": 28,
+    "requests_gc_public": 462,
+    "visits_gc_public": 68
   },
   {
     "layer": "amenagement_pga_troncons_com",
-    "requests_gc_internal": 168,
-    "visits_gc_internal": 22,
-    "requests_gc_public": 369,
-    "visits_gc_public": 49
+    "requests_gc_internal": 255,
+    "visits_gc_internal": 29,
+    "requests_gc_public": 481,
+    "visits_gc_public": 69
   },
   {
     "layer": "amenagement_pga_zones_msgroup",
-    "requests_gc_internal": 2043,
-    "visits_gc_internal": 87,
-    "requests_gc_public": 1884,
-    "visits_gc_public": 126
+    "requests_gc_internal": 2808,
+    "visits_gc_internal": 106,
+    "requests_gc_public": 2440,
+    "visits_gc_public": 163
   },
   {
     "layer": "amenagement_post_pga_foret_msgroup",
-    "requests_gc_internal": 1869,
-    "visits_gc_internal": 84,
+    "requests_gc_internal": 2563,
+    "visits_gc_internal": 102,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "amenagement_rec_arch_mesure_msgroup",
-    "requests_gc_internal": 918,
-    "visits_gc_internal": 55,
-    "requests_gc_public": 1036,
-    "visits_gc_public": 107
+    "requests_gc_internal": 1416,
+    "visits_gc_internal": 69,
+    "requests_gc_public": 1181,
+    "visits_gc_public": 132
   },
   {
     "layer": "amenagement_rec_arch_note_msgroup",
-    "requests_gc_internal": 1069,
-    "visits_gc_internal": 57,
-    "requests_gc_public": 1045,
-    "visits_gc_public": 109
+    "requests_gc_internal": 1745,
+    "visits_gc_internal": 71,
+    "requests_gc_public": 1218,
+    "visits_gc_public": 138
   },
   {
     "layer": "amenagement_rec_arch_perim_isos",
-    "requests_gc_internal": 1030,
-    "visits_gc_internal": 55,
-    "requests_gc_public": 895,
-    "visits_gc_public": 98
+    "requests_gc_internal": 1663,
+    "visits_gc_internal": 70,
+    "requests_gc_public": 1055,
+    "visits_gc_public": 125
   },
   {
     "layer": "amenagement_rec_arch_valeurs_site",
-    "requests_gc_internal": 898,
-    "visits_gc_internal": 55,
-    "requests_gc_public": 991,
-    "visits_gc_public": 100
+    "requests_gc_internal": 1396,
+    "visits_gc_internal": 69,
+    "requests_gc_public": 1148,
+    "visits_gc_public": 126
   },
   {
     "layer": "amenagement_reg_archeo",
-    "requests_gc_internal": 157,
-    "visits_gc_internal": 24,
+    "requests_gc_internal": 226,
+    "visits_gc_internal": 30,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "bdcad_bf_parc_no",
-    "requests_gc_internal": 9761,
-    "visits_gc_internal": 175,
-    "requests_gc_public": 2975,
-    "visits_gc_public": 123
+    "requests_gc_internal": 12940,
+    "visits_gc_internal": 226,
+    "requests_gc_public": 4290,
+    "visits_gc_public": 153
   },
   {
     "layer": "bdcad_bf_parcom_pol",
-    "requests_gc_internal": 8955,
-    "visits_gc_internal": 174,
+    "requests_gc_internal": 11756,
+    "visits_gc_internal": 222,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "bdcad_bf_parc_pol",
-    "requests_gc_internal": 8862,
-    "visits_gc_internal": 172,
-    "requests_gc_public": 3392,
-    "visits_gc_public": 165
+    "requests_gc_internal": 12015,
+    "visits_gc_internal": 223,
+    "requests_gc_public": 4927,
+    "visits_gc_public": 210
   },
   {
     "layer": "bdcad_bf_parc_pol_ddp_msgroup",
-    "requests_gc_internal": 8127,
-    "visits_gc_internal": 167,
-    "requests_gc_public": 2721,
-    "visits_gc_public": 112
+    "requests_gc_internal": 11108,
+    "visits_gc_internal": 216,
+    "requests_gc_public": 3861,
+    "visits_gc_public": 144
   },
   {
     "layer": "bdcad_bf_parc_pol_dp_msgroup",
-    "requests_gc_internal": 8336,
-    "visits_gc_internal": 170,
-    "requests_gc_public": 2832,
-    "visits_gc_public": 116
+    "requests_gc_internal": 11329,
+    "visits_gc_internal": 219,
+    "requests_gc_public": 3966,
+    "visits_gc_public": 149
   },
   {
     "layer": "bdcad_bf_point",
-    "requests_gc_internal": 5872,
-    "visits_gc_internal": 127,
-    "requests_gc_public": 3021,
-    "visits_gc_public": 130
+    "requests_gc_internal": 8038,
+    "visits_gc_internal": 160,
+    "requests_gc_public": 4204,
+    "visits_gc_public": 162
   },
   {
     "layer": "bdcad_cs_ad_bati",
-    "requests_gc_internal": 7888,
-    "visits_gc_internal": 157,
-    "requests_gc_public": 3014,
-    "visits_gc_public": 123
+    "requests_gc_internal": 10660,
+    "visits_gc_internal": 198,
+    "requests_gc_public": 4330,
+    "visits_gc_public": 171
   },
   {
     "layer": "bdcad_cs_autres_msgroup",
-    "requests_gc_internal": 3259,
-    "visits_gc_internal": 84,
-    "requests_gc_public": 1020,
-    "visits_gc_public": 71
+    "requests_gc_internal": 4420,
+    "visits_gc_internal": 120,
+    "requests_gc_public": 1260,
+    "visits_gc_public": 99
   },
   {
     "layer": "bdcad_cs_bati_eca",
-    "requests_gc_internal": 5370,
-    "visits_gc_internal": 108,
-    "requests_gc_public": 1334,
-    "visits_gc_public": 93
+    "requests_gc_internal": 7508,
+    "visits_gc_internal": 139,
+    "requests_gc_public": 1748,
+    "visits_gc_public": 123
   },
   {
     "layer": "bdcad_cs_bati_msgroup",
-    "requests_gc_internal": 4321,
-    "visits_gc_internal": 102,
-    "requests_gc_public": 1628,
-    "visits_gc_public": 103
+    "requests_gc_internal": 6227,
+    "visits_gc_internal": 133,
+    "requests_gc_public": 2045,
+    "visits_gc_public": 134
   },
   {
     "layer": "bdcad_distribution_plans",
-    "requests_gc_internal": 366,
-    "visits_gc_internal": 26,
-    "requests_gc_public": 673,
-    "visits_gc_public": 66
+    "requests_gc_internal": 463,
+    "visits_gc_internal": 37,
+    "requests_gc_public": 951,
+    "visits_gc_public": 89
   },
   {
     "layer": "bdcad_od_labels_msgroup",
-    "requests_gc_internal": 3165,
-    "visits_gc_internal": 84,
-    "requests_gc_public": 970,
-    "visits_gc_public": 64
+    "requests_gc_internal": 3929,
+    "visits_gc_internal": 111,
+    "requests_gc_public": 1416,
+    "visits_gc_public": 94
   },
   {
     "layer": "bdcad_od_objets_msgroup",
-    "requests_gc_internal": 3169,
-    "visits_gc_internal": 85,
-    "requests_gc_public": 1302,
-    "visits_gc_public": 75
+    "requests_gc_internal": 3942,
+    "visits_gc_internal": 113,
+    "requests_gc_public": 1783,
+    "visits_gc_public": 107
   },
   {
     "layer": "bdcad_pf_pfa_alti",
-    "requests_gc_internal": 2003,
-    "visits_gc_internal": 52,
-    "requests_gc_public": 1936,
-    "visits_gc_public": 123
+    "requests_gc_internal": 2377,
+    "visits_gc_internal": 66,
+    "requests_gc_public": 2609,
+    "visits_gc_public": 158
   },
   {
     "layer": "bdcad_pf_pfa_msgroup",
-    "requests_gc_internal": 2003,
-    "visits_gc_internal": 52,
-    "requests_gc_public": 1989,
-    "visits_gc_public": 123
+    "requests_gc_internal": 2377,
+    "visits_gc_internal": 66,
+    "requests_gc_public": 2675,
+    "visits_gc_public": 159
   },
   {
     "layer": "bdcad_pf_pfp_alti",
-    "requests_gc_internal": 1952,
-    "visits_gc_internal": 52,
-    "requests_gc_public": 1814,
-    "visits_gc_public": 120
+    "requests_gc_internal": 2327,
+    "visits_gc_internal": 66,
+    "requests_gc_public": 2291,
+    "visits_gc_public": 153
   },
   {
     "layer": "bdcad_pf_pfp_msgroup",
-    "requests_gc_internal": 1957,
-    "visits_gc_internal": 52,
-    "requests_gc_public": 1932,
-    "visits_gc_public": 122
+    "requests_gc_internal": 2332,
+    "visits_gc_internal": 66,
+    "requests_gc_public": 2420,
+    "visits_gc_public": 155
   },
   {
     "layer": "bdcad_projets_msgroup",
-    "requests_gc_internal": 16104,
-    "visits_gc_internal": 266,
-    "requests_gc_public": 5174,
-    "visits_gc_public": 228
+    "requests_gc_internal": 20942,
+    "visits_gc_internal": 331,
+    "requests_gc_public": 7882,
+    "visits_gc_public": 297
   },
   {
     "layer": "bdcad_rues_msgroup",
-    "requests_gc_internal": 2346,
-    "visits_gc_internal": 85,
-    "requests_gc_public": 1360,
-    "visits_gc_public": 84
+    "requests_gc_internal": 3208,
+    "visits_gc_internal": 104,
+    "requests_gc_public": 2312,
+    "visits_gc_public": 115
   },
   {
     "layer": "bdcad_rues_points_adresse",
-    "requests_gc_internal": 2219,
-    "visits_gc_internal": 85,
-    "requests_gc_public": 1388,
-    "visits_gc_public": 82
+    "requests_gc_internal": 3043,
+    "visits_gc_internal": 104,
+    "requests_gc_public": 2237,
+    "visits_gc_public": 113
   },
   {
     "layer": "conduites_arbres_diam_cour",
-    "requests_gc_internal": 3684,
-    "visits_gc_internal": 72,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_assainissement_msgroup",
-    "requests_gc_internal": 9572,
-    "visits_gc_internal": 142,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_chauffage_msgroup",
-    "requests_gc_internal": 8491,
-    "visits_gc_internal": 143,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_complements_msgroup",
-    "requests_gc_internal": 5319,
-    "visits_gc_internal": 95,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_eau_msgroup",
-    "requests_gc_internal": 9706,
-    "visits_gc_internal": 147,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_electricite_msgroup",
-    "requests_gc_internal": 8672,
-    "visits_gc_internal": 142,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_gaz_msgroup",
-    "requests_gc_internal": 8509,
-    "visits_gc_internal": 140,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_multiservices_msgroup",
-    "requests_gc_internal": 7125,
-    "visits_gc_internal": 118,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_pf_pfp4",
-    "requests_gc_internal": 4213,
-    "visits_gc_internal": 74,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_police_msgroup",
-    "requests_gc_internal": 6604,
-    "visits_gc_internal": 109,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_repartition_plans",
-    "requests_gc_internal": 745,
-    "visits_gc_internal": 60,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_telecom_msgroup",
-    "requests_gc_internal": 7465,
-    "visits_gc_internal": 123,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "conduites_tl_msgroup",
-    "requests_gc_internal": 6101,
-    "visits_gc_internal": 105,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "envconst_ancrages",
-    "requests_gc_internal": 2,
-    "visits_gc_internal": 2,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "envconst_arbres_public_abattage",
-    "requests_gc_internal": 184,
-    "visits_gc_internal": 11,
-    "requests_gc_public": 1675,
-    "visits_gc_public": 42
-  },
-  {
-    "layer": "envconst_arbres_public_autres",
-    "requests_gc_internal": 122,
-    "visits_gc_internal": 11,
-    "requests_gc_public": 1704,
-    "visits_gc_public": 43
-  },
-  {
-    "layer": "envconst_arbres_public_projet",
-    "requests_gc_internal": 115,
-    "visits_gc_internal": 11,
-    "requests_gc_public": 1628,
-    "visits_gc_public": 41
-  },
-  {
-    "layer": "envconst_arbres_public_remarquables",
-    "requests_gc_internal": 120,
-    "visits_gc_internal": 11,
-    "requests_gc_public": 1582,
-    "visits_gc_public": 41
-  },
-  {
-    "layer": "envconst_arbres_public_remplacement",
-    "requests_gc_internal": 184,
-    "visits_gc_internal": 11,
-    "requests_gc_public": 1624,
-    "visits_gc_public": 41
-  },
-  {
-    "layer": "envconst_cours_eau_msgroup",
-    "requests_gc_internal": 39,
-    "visits_gc_internal": 5,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "envconst_dangers_naturels_cpb",
-    "requests_gc_internal": 58,
-    "visits_gc_internal": 7,
-    "requests_gc_public": 106,
-    "visits_gc_public": 10
-  },
-  {
-    "layer": "envconst_dangers_naturels_gpp",
-    "requests_gc_internal": 58,
-    "visits_gc_internal": 7,
-    "requests_gc_public": 46,
-    "visits_gc_public": 10
-  },
-  {
-    "layer": "envconst_dangers_naturels_gss",
-    "requests_gc_internal": 58,
-    "visits_gc_internal": 7,
-    "requests_gc_public": 106,
-    "visits_gc_public": 10
-  },
-  {
-    "layer": "envconst_dangers_naturels_ino",
-    "requests_gc_internal": 59,
-    "visits_gc_internal": 7,
-    "requests_gc_public": 119,
-    "visits_gc_public": 10
-  },
-  {
-    "layer": "envconst_dangers_naturels_lto",
-    "requests_gc_internal": 58,
-    "visits_gc_internal": 7,
-    "requests_gc_public": 112,
-    "visits_gc_public": 10
-  },
-  {
-    "layer": "envconst_dangers_naturels_protection_msgroup",
-    "requests_gc_internal": 58,
-    "visits_gc_internal": 7,
-    "requests_gc_public": 55,
-    "visits_gc_public": 10
-  },
-  {
-    "layer": "envconst_dangers_naturels_syn",
-    "requests_gc_internal": 58,
-    "visits_gc_internal": 7,
-    "requests_gc_public": 61,
-    "visits_gc_public": 10
-  },
-  {
-    "layer": "envconst_eau_prot_msgroup",
-    "requests_gc_internal": 14,
-    "visits_gc_internal": 7,
-    "requests_gc_public": 21,
-    "visits_gc_public": 8
-  },
-  {
-    "layer": "envconst_gazoduc_msgroup",
-    "requests_gc_internal": 2,
-    "visits_gc_internal": 2,
-    "requests_gc_public": 19,
-    "visits_gc_public": 5
-  },
-  {
-    "layer": "envconst_glissements_terrain_msgroup",
-    "requests_gc_internal": 56,
-    "visits_gc_internal": 6,
-    "requests_gc_public": 106,
-    "visits_gc_public": 8
-  },
-  {
-    "layer": "envconst_liaisons_biol_aqua_msgroup",
-    "requests_gc_internal": 64,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 144,
-    "visits_gc_public": 19
-  },
-  {
-    "layer": "envconst_liaisons_biol_foret_msgroup",
-    "requests_gc_internal": 53,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 151,
-    "visits_gc_public": 19
-  },
-  {
-    "layer": "envconst_liaisons_biol_sec_msgroup",
-    "requests_gc_internal": 52,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 161,
-    "visits_gc_public": 19
-  },
-  {
-    "layer": "envconst_lignes_ht_msgroup",
-    "requests_gc_internal": 7,
-    "visits_gc_internal": 3,
-    "requests_gc_public": 22,
-    "visits_gc_public": 6
-  },
-  {
-    "layer": "envconst_plantes_envahissantes_msgroup",
-    "requests_gc_internal": 3,
-    "visits_gc_internal": 3,
-    "requests_gc_public": 25,
-    "visits_gc_public": 9
-  },
-  {
-    "layer": "envconst_plantes_menacees",
-    "requests_gc_internal": 4,
-    "visits_gc_internal": 3,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "envconst_sites_pollues_msgroup",
-    "requests_gc_internal": 42,
-    "visits_gc_internal": 4,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "envconst_sondages_geol",
-    "requests_gc_internal": 131,
-    "visits_gc_internal": 10,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "envconst_sondages_geol_vd",
-    "requests_gc_internal": 130,
-    "visits_gc_internal": 10,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "envconst_sondes_geothermiques",
-    "requests_gc_internal": 13,
-    "visits_gc_internal": 5,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "envconst_toitures_veg",
-    "requests_gc_internal": 3,
-    "visits_gc_internal": 3,
-    "requests_gc_public": 68,
-    "visits_gc_public": 12
-  },
-  {
-    "layer": "envconst_zones_strat_agri",
-    "requests_gc_internal": 39,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 129,
-    "visits_gc_public": 16
-  },
-  {
-    "layer": "envconst_zones_strat_aqua",
-    "requests_gc_internal": 57,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 131,
-    "visits_gc_public": 16
-  },
-  {
-    "layer": "envconst_zones_strat_bati",
-    "requests_gc_internal": 40,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 139,
-    "visits_gc_public": 17
-  },
-  {
-    "layer": "envconst_zones_strat_foret",
-    "requests_gc_internal": 57,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 140,
-    "visits_gc_public": 16
-  },
-  {
-    "layer": "envconst_zones_strat_secs",
-    "requests_gc_internal": 56,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 138,
-    "visits_gc_public": 16
-  },
-  {
-    "layer": "envconst_zones_vocations",
-    "requests_gc_internal": 19,
-    "visits_gc_internal": 7,
-    "requests_gc_public": 67,
-    "visits_gc_public": 16
-  },
-  {
-    "layer": "gestion_com_arch_secteurs_insp",
-    "requests_gc_internal": 6,
-    "visits_gc_internal": 5,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_assa_bassins_versants",
-    "requests_gc_internal": 33,
-    "visits_gc_internal": 11,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_assa_gestion_eaux_restrictive",
-    "requests_gc_internal": 36,
-    "visits_gc_internal": 11,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_assa_parcelle_statut_cistep",
-    "requests_gc_internal": 48,
-    "visits_gc_internal": 11,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_assa_separatif_a_realiser",
-    "requests_gc_internal": 73,
-    "visits_gc_internal": 14,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_assa_separatif_prive",
-    "requests_gc_internal": 185,
-    "visits_gc_internal": 16,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_assa_systeme_evacuation",
-    "requests_gc_internal": 89,
-    "visits_gc_internal": 15,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_assa_zones_infiltrations",
-    "requests_gc_internal": 80,
-    "visits_gc_internal": 13,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_cada_biens_plaire",
-    "requests_gc_internal": 159,
-    "visits_gc_internal": 7,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_cada_gestion_travaux",
-    "requests_gc_internal": 157,
-    "visits_gc_internal": 8,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_cada_services_gerants",
-    "requests_gc_internal": 32,
-    "visits_gc_internal": 8,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_eauservice_limites_reseaux_msgroup",
-    "requests_gc_internal": 11,
-    "visits_gc_internal": 10,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_eauservice_surf_permeables",
-    "requests_gc_internal": 87,
-    "visits_gc_internal": 15,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_polcom_habitat_preponderant",
-    "requests_gc_internal": 4,
-    "visits_gc_internal": 4,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_polfeu_ramoneurs_msgroup",
-    "requests_gc_internal": 6,
-    "visits_gc_internal": 4,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_pur_corbeilles",
-    "requests_gc_internal": 93,
-    "visits_gc_internal": 14,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_pur_secteurs_pdp_msgroup",
-    "requests_gc_internal": 55,
-    "visits_gc_internal": 13,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_rtmo_caissettes",
-    "requests_gc_internal": 4,
-    "visits_gc_internal": 4,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_rtmo_classes_trafic",
-    "requests_gc_internal": 7,
-    "visits_gc_internal": 6,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_rtmo_entretien_routier",
-    "requests_gc_internal": 212,
-    "visits_gc_internal": 9,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_rtmo_panneaux_aff",
-    "requests_gc_internal": 3,
-    "visits_gc_internal": 3,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_rtmo_panneaux_aff_precis",
-    "requests_gc_internal": 3,
-    "visits_gc_internal": 3,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_rtmo_voies_tram",
-    "requests_gc_internal": 3,
-    "visits_gc_internal": 3,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_rtmo_zones_pavees",
-    "requests_gc_internal": 202,
-    "visits_gc_internal": 5,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_sglea_secteurs_prev_accidents",
-    "requests_gc_internal": 3,
-    "visits_gc_internal": 3,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_arbres01_msgroup",
-    "requests_gc_internal": 5637,
-    "visits_gc_internal": 47,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_arbres02_msgroup",
-    "requests_gc_internal": 5607,
-    "visits_gc_internal": 47,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_arbres05_msgroup",
-    "requests_gc_internal": 5640,
-    "visits_gc_internal": 47,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_arbres06_msgroup",
-    "requests_gc_internal": 5644,
-    "visits_gc_internal": 47,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_arbres07_msgroup",
-    "requests_gc_internal": 5641,
-    "visits_gc_internal": 47,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_arbres08_msgroup",
-    "requests_gc_internal": 5642,
-    "visits_gc_internal": 47,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_arbres09_msgroup",
-    "requests_gc_internal": 5644,
-    "visits_gc_internal": 47,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_arbres10_msgroup",
-    "requests_gc_internal": 5645,
-    "visits_gc_internal": 47,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_arbres11_msgroup",
-    "requests_gc_internal": 5643,
-    "visits_gc_internal": 47,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_arbres_msgroup",
-    "requests_gc_internal": 1721,
-    "visits_gc_internal": 45,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_bancs",
-    "requests_gc_internal": 69,
-    "visits_gc_internal": 8,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_jardins_urb",
-    "requests_gc_internal": 83,
-    "visits_gc_internal": 10,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_ouvrages_escaliers",
-    "requests_gc_internal": 60,
-    "visits_gc_internal": 9,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_ouvrages_gardecorps",
-    "requests_gc_internal": 60,
-    "visits_gc_internal": 9,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_ouvrages_murs_soutenement",
-    "requests_gc_internal": 60,
-    "visits_gc_internal": 9,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_ouvrages_oeuvres_art",
-    "requests_gc_internal": 60,
-    "visits_gc_internal": 9,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_ouvrages_passerelles",
-    "requests_gc_internal": 60,
-    "visits_gc_internal": 9,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_ouvrages_ponts",
-    "requests_gc_internal": 60,
-    "visits_gc_internal": 9,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_secteurs",
-    "requests_gc_internal": 294,
-    "visits_gc_internal": 15,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "gestion_com_spadom_surf_entretien",
-    "requests_gc_internal": 305,
-    "visits_gc_internal": 15,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "mobilite_axes_forts_msgroup",
-    "requests_gc_internal": 150,
-    "visits_gc_internal": 12,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "mobilite_banc_public",
-    "requests_gc_internal": 52,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 128,
-    "visits_gc_public": 26
-  },
-  {
-    "layer": "mobilite_chantier_externe",
-    "requests_gc_internal": 2010,
-    "visits_gc_internal": 70,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "mobilite_chantier_lausanne",
-    "requests_gc_internal": 1933,
-    "visits_gc_internal": 70,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "mobilite_chantier_termine",
-    "requests_gc_internal": 2037,
-    "visits_gc_internal": 69,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "mobilite_convoi_exceptionnel",
-    "requests_gc_internal": 65,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 126,
-    "visits_gc_public": 27
-  },
-  {
-    "layer": "mobilite_desserte_transports_publics",
-    "requests_gc_internal": 32,
-    "visits_gc_internal": 10,
-    "requests_gc_public": 363,
-    "visits_gc_public": 27
-  },
-  {
-    "layer": "mobilite_horodateurs_public",
-    "requests_gc_internal": 96,
-    "visits_gc_internal": 11,
-    "requests_gc_public": 214,
-    "visits_gc_public": 27
-  },
-  {
-    "layer": "mobilite_marquage_msgroup",
-    "requests_gc_internal": 326,
-    "visits_gc_internal": 19,
-    "requests_gc_public": 344,
-    "visits_gc_public": 35
-  },
-  {
-    "layer": "mobilite_moderation_trafic",
-    "requests_gc_internal": 97,
-    "visits_gc_internal": 15,
-    "requests_gc_public": 455,
-    "visits_gc_public": 35
-  },
-  {
-    "layer": "mobilite_occupation_dp",
-    "requests_gc_internal": 77,
-    "visits_gc_internal": 10,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "mobilite_pedibus_msgroup",
-    "requests_gc_internal": 24,
-    "visits_gc_internal": 7,
-    "requests_gc_public": 135,
-    "visits_gc_public": 31
-  },
-  {
-    "layer": "mobilite_routes_cantonales_msgroup",
-    "requests_gc_internal": 60,
-    "visits_gc_internal": 11,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "mobilite_stationnement_autocars_msgroup",
-    "requests_gc_internal": 1937,
-    "visits_gc_internal": 50,
-    "requests_gc_public": 1141,
-    "visits_gc_public": 76
-  },
-  {
-    "layer": "mobilite_stationnement_deuxroues",
-    "requests_gc_internal": 1993,
-    "visits_gc_internal": 50,
-    "requests_gc_public": 1393,
-    "visits_gc_public": 75
-  },
-  {
-    "layer": "mobilite_stationnement_divers",
-    "requests_gc_internal": 1902,
-    "visits_gc_internal": 49,
-    "requests_gc_public": 1042,
-    "visits_gc_public": 70
-  },
-  {
-    "layer": "mobilite_stationnement_handicap_msgroup",
-    "requests_gc_internal": 1903,
-    "visits_gc_internal": 49,
-    "requests_gc_public": 1050,
-    "visits_gc_public": 70
-  },
-  {
-    "layer": "mobilite_stationnement_livraisons",
-    "requests_gc_internal": 1994,
-    "visits_gc_internal": 50,
-    "requests_gc_public": 1296,
-    "visits_gc_public": 83
-  },
-  {
-    "layer": "mobilite_stationnement_macarons_pmixtes",
-    "requests_gc_internal": 1913,
-    "visits_gc_internal": 49,
-    "requests_gc_public": 2655,
-    "visits_gc_public": 148
-  },
-  {
-    "layer": "mobilite_stationnement_macarons_zones",
-    "requests_gc_internal": 1913,
-    "visits_gc_internal": 49,
-    "requests_gc_public": 2752,
-    "visits_gc_public": 151
-  },
-  {
-    "layer": "mobilite_stationnement_pldmac_msgroup",
-    "requests_gc_internal": 1995,
-    "visits_gc_internal": 53,
-    "requests_gc_public": 6335,
-    "visits_gc_public": 412
-  },
-  {
-    "layer": "mobilite_stationnement_pld_msgroup",
-    "requests_gc_internal": 1996,
-    "visits_gc_internal": 53,
-    "requests_gc_public": 6163,
-    "visits_gc_public": 411
-  },
-  {
-    "layer": "mobilite_stationnement_poidslourds_msgroup",
-    "requests_gc_internal": 1908,
-    "visits_gc_internal": 49,
-    "requests_gc_public": 1172,
-    "visits_gc_public": 77
-  },
-  {
-    "layer": "mobilite_stationnement_pr_msgroup",
-    "requests_gc_internal": 1962,
-    "visits_gc_internal": 50,
-    "requests_gc_public": 1331,
-    "visits_gc_public": 72
-  },
-  {
-    "layer": "mobilite_stationnement_taxis",
-    "requests_gc_internal": 1910,
-    "visits_gc_internal": 49,
-    "requests_gc_public": 1055,
-    "visits_gc_public": 70
-  },
-  {
-    "layer": "mobilite_stationnement_zblanches",
-    "requests_gc_internal": 1997,
-    "visits_gc_internal": 51,
-    "requests_gc_public": 1331,
-    "visits_gc_public": 86
-  },
-  {
-    "layer": "mobilite_stationnement_zbleues",
-    "requests_gc_internal": 1963,
-    "visits_gc_internal": 50,
-    "requests_gc_public": 1436,
-    "visits_gc_public": 87
-  },
-  {
-    "layer": "mobilite_stationnement_zbleuesmac",
-    "requests_gc_internal": 1965,
-    "visits_gc_internal": 50,
-    "requests_gc_public": 1587,
-    "visits_gc_public": 90
-  },
-  {
-    "layer": "mobilite_stationnement_zpayantes",
-    "requests_gc_internal": 1987,
-    "visits_gc_internal": 50,
-    "requests_gc_public": 1441,
-    "visits_gc_public": 80
-  },
-  {
-    "layer": "mobilite_stationnement_zpayantesmac",
-    "requests_gc_internal": 1988,
-    "visits_gc_internal": 50,
-    "requests_gc_public": 1615,
-    "visits_gc_public": 83
-  },
-  {
-    "layer": "mobilite_velo_amenagement",
-    "requests_gc_internal": 374,
-    "visits_gc_internal": 18,
-    "requests_gc_public": 1683,
-    "visits_gc_public": 90
-  },
-  {
-    "layer": "mobilite_velo_carrefour",
-    "requests_gc_internal": 373,
-    "visits_gc_internal": 18,
-    "requests_gc_public": 958,
-    "visits_gc_public": 77
-  },
-  {
-    "layer": "mobilite_velo_libre_service",
-    "requests_gc_internal": 368,
-    "visits_gc_internal": 17,
-    "requests_gc_public": 820,
-    "visits_gc_public": 72
-  },
-  {
-    "layer": "mobilite_velo_parking",
-    "requests_gc_internal": 381,
-    "visits_gc_internal": 19,
-    "requests_gc_public": 1392,
-    "visits_gc_public": 91
-  },
-  {
-    "layer": "mobilite_velo_pompe",
-    "requests_gc_internal": 370,
-    "visits_gc_internal": 17,
-    "requests_gc_public": 912,
-    "visits_gc_public": 73
-  },
-  {
-    "layer": "perimetres_accueils_jour_1-2p",
-    "requests_gc_internal": 196,
-    "visits_gc_internal": 73,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_accueils_jour_3-6p",
-    "requests_gc_internal": 165,
-    "visits_gc_internal": 70,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_accueils_jour_7-8p",
-    "requests_gc_internal": 172,
-    "visits_gc_internal": 72,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_accueils_jour_haltes-jeux",
-    "requests_gc_internal": 165,
-    "visits_gc_internal": 70,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_accueils_jour_ipe",
-    "requests_gc_internal": 299,
-    "visits_gc_internal": 75,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_aeroport_bruit",
-    "requests_gc_internal": 287,
-    "visits_gc_internal": 76,
-    "requests_gc_public": 367,
-    "visits_gc_public": 82
-  },
-  {
-    "layer": "perimetres_aeroport_zones_securite_msgroup",
-    "requests_gc_internal": 300,
-    "visits_gc_internal": 76,
-    "requests_gc_public": 286,
-    "visits_gc_public": 74
-  },
-  {
-    "layer": "perimetres_concession_lac_msgroup",
-    "requests_gc_internal": 293,
-    "visits_gc_internal": 73,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_etablissements_prim_ecoles",
-    "requests_gc_internal": 663,
-    "visits_gc_internal": 85,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_etablissements_prim_perim",
-    "requests_gc_internal": 653,
-    "visits_gc_internal": 82,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_etablissements_prim_sec_ecoles",
-    "requests_gc_internal": 432,
-    "visits_gc_internal": 85,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_etablissements_prim_sec_perim",
-    "requests_gc_internal": 494,
-    "visits_gc_internal": 80,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_lim_com_msgroup",
-    "requests_gc_internal": 1738,
-    "visits_gc_internal": 110,
-    "requests_gc_public": 513,
-    "visits_gc_public": 90
-  },
-  {
-    "layer": "perimetres_mobilis_zones",
-    "requests_gc_internal": 411,
-    "visits_gc_internal": 72,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_secteurs_ramoneurs_msgroup",
-    "requests_gc_internal": 139,
-    "visits_gc_internal": 69,
-    "requests_gc_public": 375,
-    "visits_gc_public": 77
-  },
-  {
-    "layer": "perimetres_urba_ilots",
-    "requests_gc_internal": 193,
-    "visits_gc_internal": 76,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_urba_quartiers",
-    "requests_gc_internal": 343,
-    "visits_gc_internal": 79,
-    "requests_gc_public": null,
-    "visits_gc_public": null
-  },
-  {
-    "layer": "perimetres_urba_secteurs",
-    "requests_gc_internal": 671,
+    "requests_gc_internal": 4738,
     "visits_gc_internal": 83,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
+    "layer": "conduites_assainissement_msgroup",
+    "requests_gc_internal": 12190,
+    "visits_gc_internal": 167,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_chauffage_msgroup",
+    "requests_gc_internal": 10742,
+    "visits_gc_internal": 164,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_complements_msgroup",
+    "requests_gc_internal": 6898,
+    "visits_gc_internal": 109,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_eau_msgroup",
+    "requests_gc_internal": 12482,
+    "visits_gc_internal": 171,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_elec_lines",
+    "requests_gc_internal": 19,
+    "visits_gc_internal": 1,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_elec_symbols",
+    "requests_gc_internal": 19,
+    "visits_gc_internal": 1,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_electricite_msgroup",
+    "requests_gc_internal": 11030,
+    "visits_gc_internal": 165,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_elec_txt",
+    "requests_gc_internal": 19,
+    "visits_gc_internal": 1,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_gaz_msgroup",
+    "requests_gc_internal": 10884,
+    "visits_gc_internal": 161,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_multiservices_msgroup",
+    "requests_gc_internal": 9017,
+    "visits_gc_internal": 136,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_pf_pfp4",
+    "requests_gc_internal": 5404,
+    "visits_gc_internal": 85,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_police_msgroup",
+    "requests_gc_internal": 8761,
+    "visits_gc_internal": 125,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_repartition_plans",
+    "requests_gc_internal": 960,
+    "visits_gc_internal": 73,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_telecom_msgroup",
+    "requests_gc_internal": 9496,
+    "visits_gc_internal": 143,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "conduites_tl_msgroup",
+    "requests_gc_internal": 7963,
+    "visits_gc_internal": 120,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "envconst_ancrages",
+    "requests_gc_internal": 3,
+    "visits_gc_internal": 3,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "envconst_arbres_public_abattage",
+    "requests_gc_internal": 195,
+    "visits_gc_internal": 14,
+    "requests_gc_public": 1988,
+    "visits_gc_public": 55
+  },
+  {
+    "layer": "envconst_arbres_public_autres",
+    "requests_gc_internal": 133,
+    "visits_gc_internal": 14,
+    "requests_gc_public": 2008,
+    "visits_gc_public": 55
+  },
+  {
+    "layer": "envconst_arbres_public_projet",
+    "requests_gc_internal": 126,
+    "visits_gc_internal": 14,
+    "requests_gc_public": 1932,
+    "visits_gc_public": 54
+  },
+  {
+    "layer": "envconst_arbres_public_remarquables",
+    "requests_gc_internal": 131,
+    "visits_gc_internal": 14,
+    "requests_gc_public": 1891,
+    "visits_gc_public": 54
+  },
+  {
+    "layer": "envconst_arbres_public_remplacement",
+    "requests_gc_internal": 195,
+    "visits_gc_internal": 14,
+    "requests_gc_public": 1922,
+    "visits_gc_public": 54
+  },
+  {
+    "layer": "envconst_cours_eau_msgroup",
+    "requests_gc_internal": 40,
+    "visits_gc_internal": 6,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "envconst_dangers_naturels_cpb",
+    "requests_gc_internal": 109,
+    "visits_gc_internal": 10,
+    "requests_gc_public": 114,
+    "visits_gc_public": 12
+  },
+  {
+    "layer": "envconst_dangers_naturels_gpp",
+    "requests_gc_internal": 110,
+    "visits_gc_internal": 10,
+    "requests_gc_public": 54,
+    "visits_gc_public": 12
+  },
+  {
+    "layer": "envconst_dangers_naturels_gss",
+    "requests_gc_internal": 111,
+    "visits_gc_internal": 10,
+    "requests_gc_public": 115,
+    "visits_gc_public": 13
+  },
+  {
+    "layer": "envconst_dangers_naturels_ino",
+    "requests_gc_internal": 113,
+    "visits_gc_internal": 10,
+    "requests_gc_public": 127,
+    "visits_gc_public": 12
+  },
+  {
+    "layer": "envconst_dangers_naturels_lto",
+    "requests_gc_internal": 113,
+    "visits_gc_internal": 10,
+    "requests_gc_public": 120,
+    "visits_gc_public": 12
+  },
+  {
+    "layer": "envconst_dangers_naturels_protection_msgroup",
+    "requests_gc_internal": 107,
+    "visits_gc_internal": 10,
+    "requests_gc_public": 63,
+    "visits_gc_public": 12
+  },
+  {
+    "layer": "envconst_dangers_naturels_syn",
+    "requests_gc_internal": 112,
+    "visits_gc_internal": 10,
+    "requests_gc_public": 69,
+    "visits_gc_public": 12
+  },
+  {
+    "layer": "envconst_eau_prot_msgroup",
+    "requests_gc_internal": 18,
+    "visits_gc_internal": 8,
+    "requests_gc_public": 35,
+    "visits_gc_public": 13
+  },
+  {
+    "layer": "envconst_gazoduc_msgroup",
+    "requests_gc_internal": 3,
+    "visits_gc_internal": 3,
+    "requests_gc_public": 39,
+    "visits_gc_public": 9
+  },
+  {
+    "layer": "envconst_glissements_terrain_msgroup",
+    "requests_gc_internal": 88,
+    "visits_gc_internal": 9,
+    "requests_gc_public": 113,
+    "visits_gc_public": 11
+  },
+  {
+    "layer": "envconst_liaisons_biol_aqua_msgroup",
+    "requests_gc_internal": 132,
+    "visits_gc_internal": 13,
+    "requests_gc_public": 185,
+    "visits_gc_public": 27
+  },
+  {
+    "layer": "envconst_liaisons_biol_foret_msgroup",
+    "requests_gc_internal": 149,
+    "visits_gc_internal": 13,
+    "requests_gc_public": 190,
+    "visits_gc_public": 26
+  },
+  {
+    "layer": "envconst_liaisons_biol_sec_msgroup",
+    "requests_gc_internal": 146,
+    "visits_gc_internal": 13,
+    "requests_gc_public": 201,
+    "visits_gc_public": 26
+  },
+  {
+    "layer": "envconst_lignes_ht_msgroup",
+    "requests_gc_internal": 8,
+    "visits_gc_internal": 4,
+    "requests_gc_public": 49,
+    "visits_gc_public": 10
+  },
+  {
+    "layer": "envconst_plantes_envahissantes_msgroup",
+    "requests_gc_internal": 4,
+    "visits_gc_internal": 4,
+    "requests_gc_public": 70,
+    "visits_gc_public": 12
+  },
+  {
+    "layer": "envconst_plantes_menacees",
+    "requests_gc_internal": 6,
+    "visits_gc_internal": 5,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "envconst_sites_pollues_msgroup",
+    "requests_gc_internal": 49,
+    "visits_gc_internal": 5,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "envconst_sondages_geol",
+    "requests_gc_internal": 139,
+    "visits_gc_internal": 13,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "envconst_sondages_geol_vd",
+    "requests_gc_internal": 138,
+    "visits_gc_internal": 13,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "envconst_sondes_geothermiques",
+    "requests_gc_internal": 14,
+    "visits_gc_internal": 6,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "envconst_toitures_veg",
+    "requests_gc_internal": 4,
+    "visits_gc_internal": 4,
+    "requests_gc_public": 83,
+    "visits_gc_public": 15
+  },
+  {
+    "layer": "envconst_zones_strat_agri",
+    "requests_gc_internal": 129,
+    "visits_gc_internal": 13,
+    "requests_gc_public": 186,
+    "visits_gc_public": 23
+  },
+  {
+    "layer": "envconst_zones_strat_aqua",
+    "requests_gc_internal": 147,
+    "visits_gc_internal": 13,
+    "requests_gc_public": 188,
+    "visits_gc_public": 22
+  },
+  {
+    "layer": "envconst_zones_strat_bati",
+    "requests_gc_internal": 130,
+    "visits_gc_internal": 13,
+    "requests_gc_public": 198,
+    "visits_gc_public": 24
+  },
+  {
+    "layer": "envconst_zones_strat_foret",
+    "requests_gc_internal": 147,
+    "visits_gc_internal": 13,
+    "requests_gc_public": 200,
+    "visits_gc_public": 23
+  },
+  {
+    "layer": "envconst_zones_strat_secs",
+    "requests_gc_internal": 146,
+    "visits_gc_internal": 13,
+    "requests_gc_public": 199,
+    "visits_gc_public": 23
+  },
+  {
+    "layer": "envconst_zones_vocations",
+    "requests_gc_internal": 26,
+    "visits_gc_internal": 10,
+    "requests_gc_public": 89,
+    "visits_gc_public": 20
+  },
+  {
+    "layer": "gestion_com_arch_secteurs_insp",
+    "requests_gc_internal": 13,
+    "visits_gc_internal": 6,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_assa_bassins_versants",
+    "requests_gc_internal": 42,
+    "visits_gc_internal": 12,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_assa_gestion_eaux_restrictive",
+    "requests_gc_internal": 44,
+    "visits_gc_internal": 13,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_assa_parcelle_statut_cistep",
+    "requests_gc_internal": 57,
+    "visits_gc_internal": 12,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_assa_separatif_a_realiser",
+    "requests_gc_internal": 82,
+    "visits_gc_internal": 16,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_assa_separatif_prive",
+    "requests_gc_internal": 194,
+    "visits_gc_internal": 17,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_assa_systeme_evacuation",
+    "requests_gc_internal": 96,
+    "visits_gc_internal": 16,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_assa_zones_infiltrations",
+    "requests_gc_internal": 88,
+    "visits_gc_internal": 15,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_cada_biens_plaire",
+    "requests_gc_internal": 196,
+    "visits_gc_internal": 9,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_cada_gestion_travaux",
+    "requests_gc_internal": 178,
+    "visits_gc_internal": 10,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_cada_services_gerants",
+    "requests_gc_internal": 47,
+    "visits_gc_internal": 10,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_eauservice_limites_reseaux_msgroup",
+    "requests_gc_internal": 20,
+    "visits_gc_internal": 13,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_eauservice_surf_permeables",
+    "requests_gc_internal": 94,
+    "visits_gc_internal": 16,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_polcom_habitat_preponderant",
+    "requests_gc_internal": 12,
+    "visits_gc_internal": 6,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_polfeu_ramoneurs_msgroup",
+    "requests_gc_internal": 14,
+    "visits_gc_internal": 6,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_pur_corbeilles",
+    "requests_gc_internal": 104,
+    "visits_gc_internal": 17,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_pur_secteurs_pdp_msgroup",
+    "requests_gc_internal": 77,
+    "visits_gc_internal": 15,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_rtmo_caissettes",
+    "requests_gc_internal": 8,
+    "visits_gc_internal": 7,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_rtmo_classes_trafic",
+    "requests_gc_internal": 48,
+    "visits_gc_internal": 10,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_rtmo_entretien_routier",
+    "requests_gc_internal": 269,
+    "visits_gc_internal": 13,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_rtmo_panneaux_aff",
+    "requests_gc_internal": 11,
+    "visits_gc_internal": 5,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_rtmo_panneaux_aff_precis",
+    "requests_gc_internal": 13,
+    "visits_gc_internal": 6,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_rtmo_voies_tram",
+    "requests_gc_internal": 11,
+    "visits_gc_internal": 5,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_rtmo_zones_pavees",
+    "requests_gc_internal": 234,
+    "visits_gc_internal": 8,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_sglea_secteurs_prev_accidents",
+    "requests_gc_internal": 10,
+    "visits_gc_internal": 4,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_arbres01_msgroup",
+    "requests_gc_internal": 6450,
+    "visits_gc_internal": 61,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_arbres02_msgroup",
+    "requests_gc_internal": 6402,
+    "visits_gc_internal": 61,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_arbres05_msgroup",
+    "requests_gc_internal": 6453,
+    "visits_gc_internal": 61,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_arbres06_msgroup",
+    "requests_gc_internal": 6456,
+    "visits_gc_internal": 61,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_arbres07_msgroup",
+    "requests_gc_internal": 6461,
+    "visits_gc_internal": 61,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_arbres08_msgroup",
+    "requests_gc_internal": 6455,
+    "visits_gc_internal": 61,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_arbres09_msgroup",
+    "requests_gc_internal": 6453,
+    "visits_gc_internal": 61,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_arbres10_msgroup",
+    "requests_gc_internal": 6451,
+    "visits_gc_internal": 61,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_arbres11_msgroup",
+    "requests_gc_internal": 6456,
+    "visits_gc_internal": 61,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_arbres_msgroup",
+    "requests_gc_internal": 2308,
+    "visits_gc_internal": 63,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_bancs",
+    "requests_gc_internal": 245,
+    "visits_gc_internal": 11,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_jardins_urb",
+    "requests_gc_internal": 260,
+    "visits_gc_internal": 13,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_ouvrages_escaliers",
+    "requests_gc_internal": 258,
+    "visits_gc_internal": 14,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_ouvrages_gardecorps",
+    "requests_gc_internal": 258,
+    "visits_gc_internal": 14,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_ouvrages_murs_soutenement",
+    "requests_gc_internal": 258,
+    "visits_gc_internal": 14,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_ouvrages_oeuvres_art",
+    "requests_gc_internal": 258,
+    "visits_gc_internal": 14,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_ouvrages_passerelles",
+    "requests_gc_internal": 258,
+    "visits_gc_internal": 14,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_ouvrages_ponts",
+    "requests_gc_internal": 258,
+    "visits_gc_internal": 14,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_secteurs",
+    "requests_gc_internal": 540,
+    "visits_gc_internal": 20,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "gestion_com_spadom_surf_entretien",
+    "requests_gc_internal": 514,
+    "visits_gc_internal": 20,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "mobilite_axes_forts_msgroup",
+    "requests_gc_internal": 160,
+    "visits_gc_internal": 15,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "mobilite_banc_public",
+    "requests_gc_internal": 158,
+    "visits_gc_internal": 16,
+    "requests_gc_public": 170,
+    "visits_gc_public": 37
+  },
+  {
+    "layer": "mobilite_chantier_externe",
+    "requests_gc_internal": 2453,
+    "visits_gc_internal": 87,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "mobilite_chantier_lausanne",
+    "requests_gc_internal": 2377,
+    "visits_gc_internal": 87,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "mobilite_chantier_termine",
+    "requests_gc_internal": 2448,
+    "visits_gc_internal": 86,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "mobilite_convoi_exceptionnel",
+    "requests_gc_internal": 83,
+    "visits_gc_internal": 14,
+    "requests_gc_public": 148,
+    "visits_gc_public": 39
+  },
+  {
+    "layer": "mobilite_desserte_transports_publics",
+    "requests_gc_internal": 42,
+    "visits_gc_internal": 14,
+    "requests_gc_public": 387,
+    "visits_gc_public": 39
+  },
+  {
+    "layer": "mobilite_horodateurs_public",
+    "requests_gc_internal": 218,
+    "visits_gc_internal": 19,
+    "requests_gc_public": 270,
+    "visits_gc_public": 38
+  },
+  {
+    "layer": "mobilite_marquage_msgroup",
+    "requests_gc_internal": 490,
+    "visits_gc_internal": 28,
+    "requests_gc_public": 445,
+    "visits_gc_public": 48
+  },
+  {
+    "layer": "mobilite_moderation_trafic",
+    "requests_gc_internal": 198,
+    "visits_gc_internal": 22,
+    "requests_gc_public": 542,
+    "visits_gc_public": 47
+  },
+  {
+    "layer": "mobilite_occupation_dp",
+    "requests_gc_internal": 100,
+    "visits_gc_internal": 16,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "mobilite_pedibus_msgroup",
+    "requests_gc_internal": 34,
+    "visits_gc_internal": 11,
+    "requests_gc_public": 181,
+    "visits_gc_public": 40
+  },
+  {
+    "layer": "mobilite_routes_cantonales_msgroup",
+    "requests_gc_internal": 147,
+    "visits_gc_internal": 18,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "mobilite_stationnement_autocars_msgroup",
+    "requests_gc_internal": 2856,
+    "visits_gc_internal": 64,
+    "requests_gc_public": 1762,
+    "visits_gc_public": 104
+  },
+  {
+    "layer": "mobilite_stationnement_deuxroues",
+    "requests_gc_internal": 2939,
+    "visits_gc_internal": 68,
+    "requests_gc_public": 2056,
+    "visits_gc_public": 102
+  },
+  {
+    "layer": "mobilite_stationnement_divers",
+    "requests_gc_internal": 2857,
+    "visits_gc_internal": 65,
+    "requests_gc_public": 1620,
+    "visits_gc_public": 96
+  },
+  {
+    "layer": "mobilite_stationnement_handicap_msgroup",
+    "requests_gc_internal": 2842,
+    "visits_gc_internal": 64,
+    "requests_gc_public": 1577,
+    "visits_gc_public": 96
+  },
+  {
+    "layer": "mobilite_stationnement_livraisons",
+    "requests_gc_internal": 2940,
+    "visits_gc_internal": 68,
+    "requests_gc_public": 1970,
+    "visits_gc_public": 111
+  },
+  {
+    "layer": "mobilite_stationnement_macarons_pmixtes",
+    "requests_gc_internal": 2870,
+    "visits_gc_internal": 68,
+    "requests_gc_public": 4328,
+    "visits_gc_public": 209
+  },
+  {
+    "layer": "mobilite_stationnement_macarons_zones",
+    "requests_gc_internal": 2880,
+    "visits_gc_internal": 68,
+    "requests_gc_public": 4451,
+    "visits_gc_public": 213
+  },
+  {
+    "layer": "mobilite_stationnement_pldmac_msgroup",
+    "requests_gc_internal": 2943,
+    "visits_gc_internal": 70,
+    "requests_gc_public": 9167,
+    "visits_gc_public": 553
+  },
+  {
+    "layer": "mobilite_stationnement_pld_msgroup",
+    "requests_gc_internal": 2965,
+    "visits_gc_internal": 70,
+    "requests_gc_public": 8993,
+    "visits_gc_public": 552
+  },
+  {
+    "layer": "mobilite_stationnement_poidslourds_msgroup",
+    "requests_gc_internal": 2850,
+    "visits_gc_internal": 64,
+    "requests_gc_public": 1816,
+    "visits_gc_public": 105
+  },
+  {
+    "layer": "mobilite_stationnement_pr_msgroup",
+    "requests_gc_internal": 2893,
+    "visits_gc_internal": 67,
+    "requests_gc_public": 1921,
+    "visits_gc_public": 100
+  },
+  {
+    "layer": "mobilite_stationnement_taxis",
+    "requests_gc_internal": 2858,
+    "visits_gc_internal": 64,
+    "requests_gc_public": 1615,
+    "visits_gc_public": 96
+  },
+  {
+    "layer": "mobilite_stationnement_zblanches",
+    "requests_gc_internal": 2943,
+    "visits_gc_internal": 69,
+    "requests_gc_public": 2060,
+    "visits_gc_public": 115
+  },
+  {
+    "layer": "mobilite_stationnement_zbleues",
+    "requests_gc_internal": 2907,
+    "visits_gc_internal": 68,
+    "requests_gc_public": 2217,
+    "visits_gc_public": 118
+  },
+  {
+    "layer": "mobilite_stationnement_zbleuesmac",
+    "requests_gc_internal": 2909,
+    "visits_gc_internal": 68,
+    "requests_gc_public": 2352,
+    "visits_gc_public": 122
+  },
+  {
+    "layer": "mobilite_stationnement_zpayantes",
+    "requests_gc_internal": 2933,
+    "visits_gc_internal": 68,
+    "requests_gc_public": 2168,
+    "visits_gc_public": 111
+  },
+  {
+    "layer": "mobilite_stationnement_zpayantesmac",
+    "requests_gc_internal": 2934,
+    "visits_gc_internal": 68,
+    "requests_gc_public": 2328,
+    "visits_gc_public": 115
+  },
+  {
+    "layer": "mobilite_velo_amenagement",
+    "requests_gc_internal": 958,
+    "visits_gc_internal": 32,
+    "requests_gc_public": 2070,
+    "visits_gc_public": 121
+  },
+  {
+    "layer": "mobilite_velo_carrefour",
+    "requests_gc_internal": 905,
+    "visits_gc_internal": 31,
+    "requests_gc_public": 1242,
+    "visits_gc_public": 101
+  },
+  {
+    "layer": "mobilite_velo_libre_service",
+    "requests_gc_internal": 954,
+    "visits_gc_internal": 30,
+    "requests_gc_public": 1103,
+    "visits_gc_public": 95
+  },
+  {
+    "layer": "mobilite_velo_parking",
+    "requests_gc_internal": 940,
+    "visits_gc_internal": 33,
+    "requests_gc_public": 1724,
+    "visits_gc_public": 121
+  },
+  {
+    "layer": "mobilite_velo_pompe",
+    "requests_gc_internal": 927,
+    "visits_gc_internal": 30,
+    "requests_gc_public": 1255,
+    "visits_gc_public": 98
+  },
+  {
+    "layer": "perimetres_accueils_jour_1-2p",
+    "requests_gc_internal": 296,
+    "visits_gc_internal": 89,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_accueils_jour_3-6p",
+    "requests_gc_internal": 278,
+    "visits_gc_internal": 86,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_accueils_jour_7-8p",
+    "requests_gc_internal": 284,
+    "visits_gc_internal": 88,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_accueils_jour_haltes-jeux",
+    "requests_gc_internal": 260,
+    "visits_gc_internal": 86,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_accueils_jour_ipe",
+    "requests_gc_internal": 452,
+    "visits_gc_internal": 92,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_aeroport_bruit",
+    "requests_gc_internal": 416,
+    "visits_gc_internal": 92,
+    "requests_gc_public": 488,
+    "visits_gc_public": 103
+  },
+  {
+    "layer": "perimetres_aeroport_zones_securite_msgroup",
+    "requests_gc_internal": 429,
+    "visits_gc_internal": 92,
+    "requests_gc_public": 375,
+    "visits_gc_public": 96
+  },
+  {
+    "layer": "perimetres_concession_lac_msgroup",
+    "requests_gc_internal": 380,
+    "visits_gc_internal": 89,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_etablissements_prim_ecoles",
+    "requests_gc_internal": 782,
+    "visits_gc_internal": 105,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_etablissements_prim_perim",
+    "requests_gc_internal": 782,
+    "visits_gc_internal": 103,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_etablissements_prim_sec_ecoles",
+    "requests_gc_internal": 561,
+    "visits_gc_internal": 105,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_etablissements_prim_sec_perim",
+    "requests_gc_internal": 627,
+    "visits_gc_internal": 100,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_lim_com_msgroup",
+    "requests_gc_internal": 2049,
+    "visits_gc_internal": 139,
+    "requests_gc_public": 657,
+    "visits_gc_public": 114
+  },
+  {
+    "layer": "perimetres_mobilis_zones",
+    "requests_gc_internal": 523,
+    "visits_gc_internal": 90,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_secteurs_ramoneurs_msgroup",
+    "requests_gc_internal": 225,
+    "visits_gc_internal": 85,
+    "requests_gc_public": 477,
+    "visits_gc_public": 98
+  },
+  {
+    "layer": "perimetres_urba_ilots",
+    "requests_gc_internal": 267,
+    "visits_gc_internal": 93,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_urba_quartiers",
+    "requests_gc_internal": 485,
+    "visits_gc_internal": 97,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
+    "layer": "perimetres_urba_secteurs",
+    "requests_gc_internal": 861,
+    "visits_gc_internal": 103,
+    "requests_gc_public": null,
+    "visits_gc_public": null
+  },
+  {
     "layer": "perimetres_zone_ecoles_prim",
-    "requests_gc_internal": 213,
-    "visits_gc_internal": 71,
+    "requests_gc_internal": 372,
+    "visits_gc_internal": 91,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "perimetres_zone_ecoles_prim_sec",
-    "requests_gc_internal": 234,
-    "visits_gc_internal": 72,
+    "requests_gc_internal": 407,
+    "visits_gc_internal": 91,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "perimetres_zone_ecoles_sec",
-    "requests_gc_internal": 423,
-    "visits_gc_internal": 72,
+    "requests_gc_internal": 592,
+    "visits_gc_internal": 90,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "perimetres_zones_soc_develop",
-    "requests_gc_internal": 154,
-    "visits_gc_internal": 71,
+    "requests_gc_internal": 242,
+    "visits_gc_internal": 87,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "plans_histo_lsne_1723",
-    "requests_gc_internal": 24,
-    "visits_gc_internal": 9,
-    "requests_gc_public": 81,
-    "visits_gc_public": 16
+    "requests_gc_internal": 33,
+    "visits_gc_internal": 12,
+    "requests_gc_public": 98,
+    "visits_gc_public": 20
   },
   {
     "layer": "plans_histo_lsne_1806",
-    "requests_gc_internal": 28,
-    "visits_gc_internal": 10,
-    "requests_gc_public": 184,
-    "visits_gc_public": 18
+    "requests_gc_internal": 35,
+    "visits_gc_internal": 12,
+    "requests_gc_public": 211,
+    "visits_gc_public": 23
   },
   {
     "layer": "plans_histo_lsne_1838",
-    "requests_gc_internal": 32,
-    "visits_gc_internal": 11,
-    "requests_gc_public": 118,
-    "visits_gc_public": 18
+    "requests_gc_internal": 37,
+    "visits_gc_internal": 13,
+    "requests_gc_public": 126,
+    "visits_gc_public": 20
   },
   {
     "layer": "plans_histo_lsne_1896",
-    "requests_gc_internal": 26,
-    "visits_gc_internal": 8,
-    "requests_gc_public": 96,
-    "visits_gc_public": 19
-  },
-  {
-    "layer": "plans_histo_lsne_1912",
-    "requests_gc_internal": 21,
-    "visits_gc_internal": 8,
-    "requests_gc_public": 125,
+    "requests_gc_internal": 31,
+    "visits_gc_internal": 10,
+    "requests_gc_public": 110,
     "visits_gc_public": 22
   },
   {
+    "layer": "plans_histo_lsne_1912",
+    "requests_gc_internal": 27,
+    "visits_gc_internal": 10,
+    "requests_gc_public": 147,
+    "visits_gc_public": 25
+  },
+  {
     "layer": "plans_histo_lsne_1937",
-    "requests_gc_internal": 26,
-    "visits_gc_internal": 12,
-    "requests_gc_public": 97,
-    "visits_gc_public": 21
+    "requests_gc_internal": 31,
+    "visits_gc_internal": 14,
+    "requests_gc_public": 127,
+    "visits_gc_public": 28
   },
   {
     "layer": "plans_histo_lsne_1959",
-    "requests_gc_internal": 28,
-    "visits_gc_internal": 13,
-    "requests_gc_public": 89,
-    "visits_gc_public": 18
+    "requests_gc_internal": 42,
+    "visits_gc_internal": 17,
+    "requests_gc_public": 110,
+    "visits_gc_public": 24
   },
   {
     "layer": "plans_histo_lsne_1968",
-    "requests_gc_internal": 13,
-    "visits_gc_internal": 8,
-    "requests_gc_public": 96,
-    "visits_gc_public": 18
+    "requests_gc_internal": 38,
+    "visits_gc_internal": 12,
+    "requests_gc_public": 114,
+    "visits_gc_public": 22
   },
   {
     "layer": "planville_arbres_goeland_msgroup",
-    "requests_gc_internal": 398,
+    "requests_gc_internal": 436,
     "visits_gc_internal": 4,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "planville_cs_bati_msgroup",
-    "requests_gc_internal": 398,
+    "requests_gc_internal": 436,
     "visits_gc_internal": 4,
     "requests_gc_public": null,
     "visits_gc_public": null
@@ -1466,33 +1487,33 @@
     "layer": "planville_gofontaine",
     "requests_gc_internal": 1,
     "visits_gc_internal": 1,
-    "requests_gc_public": 1989,
-    "visits_gc_public": 280
+    "requests_gc_public": 2102,
+    "visits_gc_public": 296
   },
   {
     "layer": "planville_marquage_msgroup",
-    "requests_gc_internal": 398,
+    "requests_gc_internal": 436,
     "visits_gc_internal": 4,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "planville_od_labels_msgroup",
-    "requests_gc_internal": 398,
+    "requests_gc_internal": 436,
     "visits_gc_internal": 4,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "planville_od_objets_msgroup",
-    "requests_gc_internal": 398,
+    "requests_gc_internal": 436,
     "visits_gc_internal": 4,
     "requests_gc_public": null,
     "visits_gc_public": null
   },
   {
     "layer": "planville_print_labels_msgroup",
-    "requests_gc_internal": 398,
+    "requests_gc_internal": 436,
     "visits_gc_internal": 4,
     "requests_gc_public": null,
     "visits_gc_public": null
@@ -1501,77 +1522,77 @@
     "layer": "planville_wc_public",
     "requests_gc_internal": 1,
     "visits_gc_internal": 1,
-    "requests_gc_public": 2038,
-    "visits_gc_public": 280
+    "requests_gc_public": 2142,
+    "visits_gc_public": 296
   },
   {
     "layer": "planville_zones_chiens",
-    "requests_gc_internal": 309,
+    "requests_gc_internal": 398,
     "visits_gc_internal": 2,
-    "requests_gc_public": 2483,
-    "visits_gc_public": 295
+    "requests_gc_public": 2730,
+    "visits_gc_public": 320
   },
   {
     "layer": "planville_zones_chiens_forets",
-    "requests_gc_internal": 309,
+    "requests_gc_internal": 398,
     "visits_gc_internal": 2,
-    "requests_gc_public": 2483,
-    "visits_gc_public": 295
+    "requests_gc_public": 2721,
+    "visits_gc_public": 320
   },
   {
     "layer": "rives_lac",
     "requests_gc_internal": null,
     "visits_gc_internal": null,
-    "requests_gc_public": 86,
-    "visits_gc_public": 20
+    "requests_gc_public": 88,
+    "visits_gc_public": 21
   },
   {
     "layer": "bdcad_cs_bati_pol_sout",
     "requests_gc_internal": null,
     "visits_gc_internal": null,
-    "requests_gc_public": 122,
-    "visits_gc_public": 33
+    "requests_gc_public": 169,
+    "visits_gc_public": 46
   },
   {
     "layer": "bdcad_cs_bati_pol",
     "requests_gc_internal": null,
     "visits_gc_internal": null,
-    "requests_gc_public": 2097,
-    "visits_gc_public": 299
+    "requests_gc_public": 2261,
+    "visits_gc_public": 324
   },
   {
     "layer": "bdcad_bf_parc_pol_dp",
     "requests_gc_internal": null,
     "visits_gc_internal": null,
-    "requests_gc_public": 202,
-    "visits_gc_public": 48
+    "requests_gc_public": 251,
+    "visits_gc_public": 60
   },
   {
     "layer": "bdcad_bf_parc_pol_ddp",
     "requests_gc_internal": null,
     "visits_gc_internal": null,
-    "requests_gc_public": 202,
-    "visits_gc_public": 48
+    "requests_gc_public": 251,
+    "visits_gc_public": 60
   },
   {
     "layer": "pga_foret_zone",
     "requests_gc_internal": null,
     "visits_gc_internal": null,
-    "requests_gc_public": 86,
-    "visits_gc_public": 20
+    "requests_gc_public": 88,
+    "visits_gc_public": 21
   },
   {
     "layer": "pga_zones",
     "requests_gc_internal": null,
     "visits_gc_internal": null,
-    "requests_gc_public": 86,
-    "visits_gc_public": 20
+    "requests_gc_public": 88,
+    "visits_gc_public": 21
   },
   {
     "layer": "envconst_arbres_public_msgroup",
     "requests_gc_internal": null,
     "visits_gc_internal": null,
-    "requests_gc_public": 1959,
-    "visits_gc_public": 275
+    "requests_gc_public": 2051,
+    "visits_gc_public": 289
   }
 ]

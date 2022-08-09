@@ -1,10 +1,10 @@
 #!/bin/bash
-rsync -av fw03gocarto:/var/log/apache2/access_carto_lausanne_ssl.log /tmp/
+rsync -av fw03gocarto:/var/log/apache2/access_carto_lausanne_ssl.log.1 /tmp/
 echo "## checking first and last line of full log :"
-head -n 1 /tmp/access_carto_lausanne_ssl.log |gawk '{print $4}'
-tail -n 1 /tmp/access_carto_lausanne_ssl.log |gawk '{print $4}'
+head -n 1 /tmp/access_carto_lausanne_ssl.log.1 |gawk '{print $4}'
+tail -n 1 /tmp/access_carto_lausanne_ssl.log.1 |gawk '{print $4}'
 YESTERDAY_FILTER=$(date --date="1 day ago" +%d/%b/%Y)
-grep "$YESTERDAY_FILTER" /tmp/access_carto_lausanne_ssl.log > /tmp/access_carto_lausanne_ssl_yesterday.log
+grep "$YESTERDAY_FILTER" /tmp/access_carto_lausanne_ssl.log.1 > /tmp/access_carto_lausanne_ssl_yesterday.log
 echo "## checking first and last line of yesterday log :"
 head -n 1 /tmp/access_carto_lausanne_ssl_yesterday.log |gawk '{print $4}'
 tail -n 1 /tmp/access_carto_lausanne_ssl_yesterday.log |gawk '{print $4}'
@@ -18,7 +18,7 @@ if (( "$YESTERDAY_NUM_ROWS" > 0 )); then
   exit 2
 else
   echo "## Cool 🚀✓🚀 the database does not contain yesterday entries of logs (${YESTERDAY_NUM_ROWS}), will try to parse them "
-  ./goParseLog /tmp/access_carto_lausanne_ssl_yesterday.log > /tmp/gc_internal_layers_yesterday.log
+  /root/bin/goParseLog /tmp/access_carto_lausanne_ssl_yesterday.log > /tmp/gc_internal_layers_yesterday.log
   sort /tmp/gc_internal_layers_yesterday.log > /tmp/gc_internal_layers_yesterday_sorted.log
   # shellcheck disable=SC2028
   echo "COPY layer_access_gc_internal(layer,year,month,day,hour_min,ip_address,referer,user_agent) FROM '/tmp/gc_internal_layers_yesterday_sorted.log' DELIMITER E'\t';" >/tmp/insert_yesterday_gc_internal.sql
