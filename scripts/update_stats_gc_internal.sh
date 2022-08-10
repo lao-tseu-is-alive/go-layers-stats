@@ -1,10 +1,11 @@
 #!/bin/bash
-rsync -av fw03gocarto:/var/log/apache2/access_carto_lausanne_ssl.log.1 /tmp/
+rsync -av fw03gocarto:/var/log/apache2/access_carto_lausanne_ssl.log /tmp/
 echo "## checking first and last line of full log :"
-head -n 1 /tmp/access_carto_lausanne_ssl.log.1 |gawk '{print $4}'
-tail -n 1 /tmp/access_carto_lausanne_ssl.log.1 |gawk '{print $4}'
-YESTERDAY_FILTER=$(date --date="1 day ago" +%d/%b/%Y)
-grep "$YESTERDAY_FILTER" /tmp/access_carto_lausanne_ssl.log.1 > /tmp/access_carto_lausanne_ssl_yesterday.log
+head -n 1 /tmp/access_carto_lausanne_ssl.log |gawk '{print $4}'
+tail -n 1 /tmp/access_carto_lausanne_ssl.log |gawk '{print $4}'
+YESTERDAY_FILTER=$(LC_ALL=en_US.UTF-8 date --date="1 day ago" +%d/%b/%Y)
+echo "will filter with grep records from ${YESTERDAY_FILTER}"
+grep "$YESTERDAY_FILTER" /tmp/access_carto_lausanne_ssl.log > /tmp/access_carto_lausanne_ssl_yesterday.log
 echo "## checking first and last line of yesterday log :"
 head -n 1 /tmp/access_carto_lausanne_ssl_yesterday.log |gawk '{print $4}'
 tail -n 1 /tmp/access_carto_lausanne_ssl_yesterday.log |gawk '{print $4}'

@@ -3,7 +3,7 @@ rsync -av ovh-front-geomapfish-public:/var/log/nginx/carto-public-2021_lausanne_
 echo "checking first and last line of log"
 head -n 1 /tmp/carto-public-2021_lausanne_ch_ssl_access.log.1 |gawk '{print $4}'
 tail -n 1 /tmp/carto-public-2021_lausanne_ch_ssl_access.log.1 |gawk '{print $4}'
-YESTERDAY_FILTER=$(date --date="1 day ago" +%d/%b/%Y)
+YESTERDAY_FILTER=$(LC_ALL=en_US.UTF-8 date --date="1 day ago" +%d/%b/%Y)
 grep "$YESTERDAY_FILTER" /tmp/carto-public-2021_lausanne_ch_ssl_access.log.1 > /tmp/access_carto_public_lausanne_ssl_yesterday.log
 echo "## checking first and last line of yesterday log :"
 head -n 1 /tmp/access_carto_public_lausanne_ssl_yesterday.log |gawk '{print $4}'
