@@ -1,5 +1,5 @@
--- SELECT month, day, max(hour_min),  count(*) FROM   layer_access_gc_internal WHERE year = 2022 GROUP BY month, day;
--- SELECT month, day, max(hour_min),  count(*) FROM   layer_access_gc_public WHERE year = 2022 GROUP BY month, day;
+SELECT month, day, max(hour_min),  count(*) FROM   layer_access_gc_internal WHERE year = 2022 GROUP BY month, day ORDER BY month DESC, day DESC ;
+SELECT month, day, max(hour_min),  count(*) FROM   layer_access_gc_public WHERE year = 2022 GROUP BY month, day ORDER BY month DESC, day DESC  ;
 
 -- generate the layers_stat.json file
 WITH cte_internal as (SELECT layer,
@@ -14,7 +14,7 @@ WITH cte_internal as (SELECT layer,
                     FROM layer_access_gc_public
                     GROUP BY layer
                     ORDER BY layer)
-SELECT coalesce(array_to_json(array_agg(f)),'[]') AS features
+SELECT coalesce(array_to_json(array_agg(f)),'[]') AS layers_stats
 FROM (SELECT coalesce(cte_internal.layer, cte_public.layer) as layer,
              cte_internal.requests_gc_internal,
              cte_internal.visits_gc_internal,

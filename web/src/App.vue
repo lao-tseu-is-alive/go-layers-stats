@@ -1,5 +1,6 @@
 <script setup>
-import ListLayers from './components/ListLayers.vue'</script>
+import ListLayers from './components/ListLayers.vue'
+</script>
 
 <template>
   <div class="grid">
