@@ -43,7 +43,7 @@
                   <span class="p-input-icon-left right-0">
                     <i class="pi pi-search" />
                     <InputText
-                      v-model="filters['global'].value"
+                      v-model="filters['layer'].value"
                       placeholder="filtre de couche"
                     />
                   </span>
@@ -73,9 +73,8 @@
       </SplitterPanel>
       <SplitterPanel>
         <Card>
-          <template #title>Graphique </template>
           <template #content>
-            <ChartLayers :data="dataLayers"/>
+            <ChartLayers :data-chart="dataLayers" :filter-label="filters['layer'].value"/>
           </template>
         </Card>
       </SplitterPanel>
@@ -94,10 +93,13 @@ import ColumnGroup from "primevue/columngroup";
 import Row from "primevue/row";
 import InputText from "primevue/inputtext";
 import { FilterMatchMode, FilterOperator } from "primevue/api";
-import ChartLayers from "./chartLayers.vue"
+import ChartLayers from "./chartLayers.vue";
+import { fetchData } from "./fetchData";
 
+const moduleName = "ListLayers";
 const urlLayerStats = "/data/layers_stats.json";
-const loading = ref(true);
+const loadedData = ref(false);
+const errorDataFetch = ref(null);
 const dataLayers = ref([
   {
     layer: "aucune données de couches n'est disponible en ce moment...",
@@ -107,63 +109,17 @@ const dataLayers = ref([
     visits_gc_public: 0,
   },
 ]);
-const error = ref(null);
 const filters = ref({
   global: { value: null, matchMode: FilterMatchMode.CONTAINS },
-  layer: {
-    operator: FilterOperator.AND,
-    constraints: [{ value: null, matchMode: FilterMatchMode.STARTS_WITH }],
-  },
+  layer: { value: null, matchMode: FilterMatchMode.CONTAINS },
 });
-
-function fetchLayersData(url, refData) {
-  const method = `fetchLayersData(${url})`;
-  console.log(`##--> ${method}`);
-  loading.value = true;
-  return fetch(url, {
-    method: "get",
-    headers: {
-      "content-type": "application/json",
-    },
-  })
-    .then((response) => {
-      if (!response.ok) {
-        console.log(`#💥💥 ERROR in ${method}, status: ${response.status}`);
-        const error = new Error(response.statusText);
-        error.json = response.json();
-        throw error;
-      }
-      console.log(`# ${method}, after fetch, status ${response.status}`);
-      return response.json();
-    })
-    .then((json) => {
-      console.log(`# ${method}, after json() ${typeof json}`);
-      if (json instanceof Array) {
-        refData.value = json;
-      } else {
-        error.value = `# ${method}, json is not an instanceof Array`;
-      }
-    })
-    .catch((err) => {
-      console.log(`#💥💥 ERROR in ${method}, catch err:${err}`);
-      error.value = err;
-      // In case a custom JSON error response was provided
-      if (err.json) {
-        return err.json.then((json) => {
-          // set the JSON response message
-          error.value.message = json.message;
-        });
-      }
-    })
-    .then(() => {
-      loading.value = false;
-    });
-}
 
 onMounted(() => {
   const method = "onMounted";
-  console.log(`##--> ${method}`);
-  fetchLayersData(urlLayerStats, dataLayers);
+  console.log(`##-->${moduleName}::${method}`);
+  fetchData(urlLayerStats, dataLayers, loadedData, errorDataFetch)
+    .then(() => console.log(`##-->${moduleName}::${method} fetchData OK loadedData:${loadedData.value}`)
+    );
 });
 
 defineProps({
