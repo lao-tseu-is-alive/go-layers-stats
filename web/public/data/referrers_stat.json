@@ -1,0 +1,42 @@
+[
+  {
+    "referrer": "-",
+    "count_internal": 5739,
+    "count_public": null
+  },
+  {
+    "referrer": "carto.lausanne.ch",
+    "count_internal": 480258,
+    "count_public": null
+  },
+  {
+    "referrer": "goeland.lausanne.ch",
+    "count_internal": 52,
+    "count_public": null
+  },
+  {
+    "referrer": "golux.lausanne.ch",
+    "count_internal": 35997,
+    "count_public": 27
+  },
+  {
+    "referrer": "mygolux.lausanne.ch",
+    "count_internal": 13,
+    "count_public": 10
+  },
+  {
+    "referrer": "portail.lausanne.ch",
+    "count_internal": 16,
+    "count_public": null
+  },
+  {
+    "referrer": "map.lausanne.ch",
+    "count_internal": null,
+    "count_public": 186866
+  },
+  {
+    "referrer": "smartmap.lausanne.ch",
+    "count_internal": null,
+    "count_public": 19454
+  }
+]

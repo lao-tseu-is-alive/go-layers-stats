@@ -92,7 +92,7 @@ import Column from "primevue/column";
 import ColumnGroup from "primevue/columngroup";
 import Row from "primevue/row";
 import InputText from "primevue/inputtext";
-import { FilterMatchMode, FilterOperator } from "primevue/api";
+import { FilterMatchMode } from "primevue/api";
 import ChartLayers from "./chartLayers.vue";
 import { fetchData } from "./fetchData";
 

@@ -1,7 +1,7 @@
-<style>
+<style scoped>
 .go-bar-chart {
-  width: auto;
-  height: 970px;
+  width: 600px;
+  height: 800px;
   background-color: white;
 }
 </style>
@@ -66,6 +66,7 @@ const updateChart = (arrObjects, filterLabel) => {
     chartOptions.value.series = dataResults.value.series;
     if (myChart != undefined || myChart != null) {
       myChart.setOption(chartOptions.value);
+      myChart.resize();
     }
   }
 };
@@ -142,6 +143,7 @@ onMounted(() => {
   updateChart(props.dataChart);
   myChart = echarts.init(chartZone.value);
   myChart.setOption(chartOptions.value);
+  myChart.resize();
   window.addEventListener('resize', myChart.resize)
 });
 </script>
