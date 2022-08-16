@@ -107,9 +107,10 @@ import AccordionTab from "primevue/accordiontab";
 import { FilterMatchMode } from "primevue/api";
 import { fetchData } from "./fetchData";
 import * as echarts from "echarts";
+import {DEFAULT_BASE_SERVER_URL} from "../config"
 
 const moduleName = "ListReferrers";
-const urlRefererStats = "/data/referrers_stat.json";
+const urlRefererStats = `${DEFAULT_BASE_SERVER_URL}/data/referrers_stat.json`;
 let myChart;
 let myChartPublic;
 const loadedData = ref(false);

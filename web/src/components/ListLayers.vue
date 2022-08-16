@@ -95,9 +95,10 @@ import InputText from "primevue/inputtext";
 import { FilterMatchMode } from "primevue/api";
 import ChartLayers from "./chartLayers.vue";
 import { fetchData } from "./fetchData";
+import { DEFAULT_BASE_SERVER_URL } from "../config";
 
 const moduleName = "ListLayers";
-const urlLayerStats = "/data/layers_stats.json";
+const urlLayerStats = `${DEFAULT_BASE_SERVER_URL}/data/layers_stats.json`;
 const loadedData = ref(false);
 const errorDataFetch = ref(null);
 const dataLayers = ref([
